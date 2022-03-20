@@ -14,10 +14,10 @@ Python 3.6 and above.
 pip install -r requirements.txt
 ```
 
-- Run sticker_downloader.py file:
+- Run sticker_downloader.py file along with sticker pack's ID or URL:
 
 ```bash
-python sticker_downloader.py
+python sticker_downloader.py 31120 # Example with ID
+python sticker_downloader.py "https://store.line.me/stickershop/product/31120" # Example with URL
 ```
 
-- Follow instructions.
